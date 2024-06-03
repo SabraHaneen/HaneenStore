@@ -1,0 +1,19 @@
+﻿
+@using HaneenStore.ViewModel
+@model AutherFormModel
+@section Title{
+    Authers
+}
+@section subTitle{
+    @(Model?.Id == null ? "Create" : "Edit")
+}
+<form asp-controller="Auther" >
+  <div class="mb-3">
+        <label asp-for="AutherName"></label>
+        <input type="text" class="form-control" asp-for="AutherName">
+        <span asp-validation-for="AutherName" class="text-danger"></span>
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">@(Model?.Id == null ? "Add" : "Update")</button>
+</form>

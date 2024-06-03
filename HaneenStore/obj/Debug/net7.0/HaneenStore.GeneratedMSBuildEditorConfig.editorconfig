@@ -20,6 +20,34 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sabra/source/repos/Asp.NetFolder/BookStoreProject/HaneenStore/HaneenStore/Views/Auther/AutherForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVyXEF1dGhlckZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sabra/source/repos/Asp.NetFolder/BookStoreProject/HaneenStore/HaneenStore/Views/Auther/Detailes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVyXERldGFpbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sabra/source/repos/Asp.NetFolder/BookStoreProject/HaneenStore/HaneenStore/Views/Auther/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sabra/source/repos/Asp.NetFolder/BookStoreProject/HaneenStore/HaneenStore/Views/Book/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sabra/source/repos/Asp.NetFolder/BookStoreProject/HaneenStore/HaneenStore/Views/Book/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sabra/source/repos/Asp.NetFolder/BookStoreProject/HaneenStore/HaneenStore/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sabra/source/repos/Asp.NetFolder/BookStoreProject/HaneenStore/HaneenStore/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sabra/source/repos/Asp.NetFolder/BookStoreProject/HaneenStore/HaneenStore/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

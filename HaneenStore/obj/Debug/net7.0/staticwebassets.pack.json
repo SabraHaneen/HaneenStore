@@ -8229,6 +8229,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\sabra\\source\\repos\\Asp.NetFolder\\BookStoreProject\\HaneenStore\\HaneenStore\\wwwroot\\images\\17338675._UY630_SR1200,630_.jpg",
+      "PackagePath": "staticwebassets\\images\\17338675._UY630_SR1200,630_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sabra\\source\\repos\\Asp.NetFolder\\BookStoreProject\\HaneenStore\\HaneenStore\\wwwroot\\images\\agatha.jpg",
+      "PackagePath": "staticwebassets\\images\\agatha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sabra\\source\\repos\\Asp.NetFolder\\BookStoreProject\\HaneenStore\\HaneenStore\\wwwroot\\images\\dan.jpg",
+      "PackagePath": "staticwebassets\\images\\dan.jpg"
+    },
+    {
       "Id": "C:\\Users\\sabra\\source\\repos\\Asp.NetFolder\\BookStoreProject\\HaneenStore\\HaneenStore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

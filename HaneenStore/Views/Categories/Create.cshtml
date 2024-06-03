@@ -1,0 +1,19 @@
+﻿
+@using HaneenStore.ViewModel
+@model CategoryMV
+@section Title{
+    Categories
+}
+@section subTitle{
+@(Model?.Id==null?"Create":"Edit")
+}
+<form asp-controller="Categories" >
+  <div class="mb-3">
+        <label asp-for="Name" ></label>
+    <input type="text" class="form-control" asp-for="Name">
+    <span asp-validation-for="Name" class="text-danger"></span>
+  </div>
+ 
+  
+  <button type="submit" class="btn btn-primary">@(Model?.Id==null?"Add":"Update")</button>
+</form>

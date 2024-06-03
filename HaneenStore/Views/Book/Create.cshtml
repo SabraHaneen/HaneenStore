@@ -1,0 +1,49 @@
+﻿@using HaneenStore.ViewModel
+@model BookVM
+@section Title{
+    Books
+}
+
+@section subTitle{
+Create
+}
+
+<form asp-controller="Book" enctype="multipart/form-data" asp-action="Create">
+    <div class="mb-3">
+        <label asp-for="BookTitle"></label>
+        <input type="text" class="form-control" asp-for="BookTitle">
+        <span asp-validation-for="BookTitle" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="AutherId"></label>
+        <select asp-for="AutherId" class="form-control" asp-items="@Model.Authers"></select>
+        <span asp-validation-for="AutherId" class="text-danger"></span>
+    </div>
+     <div class="mb-3">
+        <label asp-for="Publisher"></label>
+        <input type="text" class="form-control" asp-for="Publisher">
+        <span asp-validation-for="Publisher" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="publishedDate"></label>
+        <input type="date" class="form-control" asp-for="publishedDate">
+        <span asp-validation-for="publishedDate" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="SelectedCategories"></label>
+        <select asp-for="SelectedCategories" class="form-control" asp-items="@Model.Categories"></select>
+        <span asp-validation-for="SelectedCategories" class="text-danger"></span>
+    </div>
+    <div class="form-floating">
+        <label asp-for="Description"></label>
+
+        <textarea class="form-control" placeholder="Leave a Discription here"asp-for="Description" style="height: 100px"></textarea>
+    </div>
+    <div class="mb-3 pt-2">
+        <label asp-for="ImageUrl"></label>
+        <input type="file" class="form-control" asp-for="ImageUrl">
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+
+</form>
